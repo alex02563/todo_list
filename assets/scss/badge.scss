@@ -1,0 +1,17 @@
+.badge:not([badge|="0"]) {
+  &::after {
+    content: attr(badge);
+    border-radius: 50%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 3px;
+    font-size: 18px;
+    background-color: #ff4848;
+    color: white;
+    transition: all .3s;
+  }
+}

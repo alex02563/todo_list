@@ -1,0 +1,7 @@
+$max: 6;
+
+@for $basis from 1 through $max {
+  .flex-basis-#{$basis} {
+    flex-basis: $basis*10%;
+  }
+}

@@ -1,0 +1,49 @@
+@import './flex-grow.scss';
+@import './flex-basis.scss';
+@import './margin-and-padding.scss';
+@import './page.scss';
+@import './badge.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, 微軟正黑體;
+  font-style: normal;
+  background: $body-bg;
+  height: 100vh;
+
+  img {
+    vertical-align: middle;
+  }
+
+  .blue--text {
+    color: $blue;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .fixed {
+    position: fixed;
+  }
+
+  .row {
+    flex-direction: row
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-shrink {
+    flex-shrink: 1;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+}

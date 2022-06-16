@@ -1,0 +1,18 @@
+header {
+  width: 100%;
+  max-width: 100%;
+  height: 55px;
+  color: white;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 55px;
+  background: $headr-bg;
+}
+main {
+  .board {
+    background: white;
+    border: 1px solid #C7C3C6;
+    border-radius: 4px;
+    transition: all .25s ease-in;
+  }
+}

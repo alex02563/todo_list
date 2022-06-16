@@ -1,0 +1,6 @@
+$max: 6;
+@for $i from 1 through $max {
+  .grow-#{$i} {
+    flex-grow: $i;
+  }
+}
