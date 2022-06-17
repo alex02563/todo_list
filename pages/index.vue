@@ -3,7 +3,7 @@
     <div class="row">
       <h1
         class="badge"
-        :badge="lists.length"
+        :badge="finishJob"
       >
         {{ $t('todo_list') }}
       </h1>
@@ -57,7 +57,11 @@ export default {
   computed: {
     ...mapGetters({
       lists: 'lists'
-    })
+    }),
+    finishJob ({ lists }) {
+      const finish = lists.filter(item => !item.checked)
+      return finish.length
+    }
   },
   methods: {
     checkList (id) {
