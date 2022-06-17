@@ -1,69 +1,41 @@
-# todo_list
+# Nuxt.js Todo List Demo
+_Live Demo: https://todo-list-three-neon.vercel.app_
 
-## Build Setup
+* flex Css排版
+* Scss Global styles
+* 基本CRUD功能
+  - 使用 Vuex 實作 Todo list 資料邏輯的部分
+  - 送出時,請顯示出 loading 模擬新增時使用 API 進行新增的狀況
+  - 刪除時做出 Confirm 防呆
+* 多語系選項
+* 主題選項
+* layout、page、components 抽離
 
-```bash
-# install dependencies
+## install dependencies
 $ yarn install
 
 # serve with hot reload at localhost:3000
 $ yarn dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
 
-# generate static project
-$ yarn generate
+## Deploy Your Own
+
+Deploy your own Vue.js project with Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/main/examples/vue)
+
+### How We Created This Example
+
+To get started with Vue.js deployed with Vercel, you can use the [Vue CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) to initialize the project:
+
+```shell
+$ vue create
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### Deploying From Your Terminal
 
-## Special Directories
+You can deploy your new Vue.js project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+```shell
+$ vercel
+```

@@ -1,8 +1,9 @@
 @import './flex-grow.scss';
 @import './flex-basis.scss';
 @import './margin-and-padding.scss';
-@import './page.scss';
+@import './index.scss';
 @import './badge.scss';
+@import './select.scss';
 
 * {
   margin: 0;
@@ -20,7 +21,7 @@ body {
   }
 
   .blue--text {
-    color: $blue;
+    color: --blue;
   }
 
   .cursor-pointer {
@@ -45,5 +46,12 @@ body {
 
   .justify-center {
     justify-content: center;
+  }
+
+  .kanahei {
+    background: url('~@/assets/img/bg.png') center center repeat;
+    background-size: 100px auto;
+    height: 100vh;
+    max-height: 100vh;
   }
 }

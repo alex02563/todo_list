@@ -44,13 +44,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-.select-btn {
-  select {
-    padding: 2px;
-    background: $body-bg;
-    border-radius: 4px;
-  }
-}
-</style>

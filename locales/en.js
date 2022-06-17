@@ -5,5 +5,8 @@ export default {
   typing: 'Please enter typing',
   confirm: 'Are you sure ？',
   loading: 'Loading...',
-  lang: 'Language'
+  lang: 'Language',
+  theme: 'Theme',
+  default: 'Default',
+  kanahei: 'Kanahei'
 }

@@ -5,5 +5,8 @@ export default {
   typing: '請輸入要做的事情',
   confirm: '你確定嗎？',
   loading: '載入中...',
-  lang: '多語系'
+  lang: '多語系',
+  theme: '主題',
+  default: '預設',
+  kanahei: '卡納赫拉'
 }
